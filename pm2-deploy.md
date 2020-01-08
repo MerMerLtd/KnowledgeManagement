@@ -100,6 +100,7 @@ Enter passphrase (empty for no passphrase): [可填可不填]
 vi [自訂/id_rsa].pub (複製貼上到git repository)
 ```
 ### 6. 使用以下命令初始化遠程文件夾
+在terminal跳轉到configuration_file的file執行以下指令
 ```
 pm2 deploy <configuration_file> <environment> setup
 ```
