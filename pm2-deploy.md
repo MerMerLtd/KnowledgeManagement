@@ -20,7 +20,7 @@ npm install pm2 -g
 
 ### 3. 使用pm2 自動生成部署檔案 ecosystem.config.js
 
-打開terminal跳轉到要部署的app的檔案夾在package.json同一層檔案run以下指令
+打開terminal跳轉到要部署的app的檔案夾在package.json同一folder run以下指令
 ```
 pm2 ecosystem
 ```
@@ -58,7 +58,7 @@ module.exports = {
       // 使用者名稱
       user : 'ubuntu',
       // 要部署到的主機的IP地址
-      key  : `${process.env.HOME}/.ssh/[some].pem`, // 進行身份驗證的公鑰的路徑
+      key  : `${process.env.HOME}/.ssh/[Key].pem`, // 進行身份驗證的公鑰的路徑
       host : '54.238.248.160', // 也可以通過將IPs /主機名以arry傳入來實現多主機部署
       // branch （分支）
       ref  : 'origin/master',
@@ -94,6 +94,15 @@ module.exports = {
 ```
 ssh -i some.pem ubuntu@54.238.248.160
 ```
+
+如果出現 cannot create directory '/etc/[reponame]': Permission denied 的錯誤提示，則利用ssh連線到遠端服務區，到要建立檔案的folder（ex: etc/ )使用sudo 創建檔案，再把檔案所有權pass給User（ex: ubuntu）
+```
+ssh -i [Key].pem ubuntu@[IP address]
+cd /etc
+sudo mkdir [reponame]
+sudo chown -R [user] [reponame]
+```
+
 ### 5. 生成一對鑰匙，把公鑰放到git repository裡面確保對要clone的git repository有權限
 ```
 cd ~/.ssh // 沒有的話就建立一個
@@ -103,7 +112,7 @@ Enter passphrase (empty for no passphrase): [可填可不填]
 vi [自訂/id_rsa].pub (複製貼上到git repository)
 ```
 ### 6. 使用以下命令初始化遠程文件夾
-在terminal跳轉到要部署app的configuration_file所在的檔案夾執行以下指令
+在terminal跳轉到要部署app的configuration_file所在的folder執行以下指令
 ```
 pm2 deploy <configuration_file> <environment> setup
 ```
