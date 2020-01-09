@@ -58,7 +58,7 @@ module.exports = {
       // 使用者名稱
       user : 'ubuntu',
       // 要部署到的主機的IP地址
-      key  : `${process.env.HOME}/.ssh/some.pem`, // 進行身份驗證的公鑰的路徑
+      key  : `${process.env.HOME}/.ssh/[some].pem`, // 進行身份驗證的公鑰的路徑
       host : '54.238.248.160', // 也可以通過將IPs /主機名以arry傳入來實現多主機部署
       // branch （分支）
       ref  : 'origin/master',
@@ -88,6 +88,8 @@ module.exports = {
   }
 };
 ```
+修改好後要更新到github上再進行下一步
+
 ### 4. 遠端連線要部署到的服務器
 ```
 ssh -i some.pem ubuntu@54.238.248.160
