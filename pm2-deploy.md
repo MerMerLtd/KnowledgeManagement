@@ -111,6 +111,8 @@ Enter file in which to save the key (/Users/emilyliang/.ssh/id_rsa): [自訂]/�
 Enter passphrase (empty for no passphrase): [可填可不填]
 vi [自訂/id_rsa].pub (複製貼上到git repository)
 ```
+if permission denied, check: https://help.github.com/en/github/authenticating-to-github/error-permission-denied-publickey
+
 ### 6. 使用以下命令初始化遠程文件夾
 在terminal跳轉到要部署app的configuration_file所在的folder執行以下指令
 ```
