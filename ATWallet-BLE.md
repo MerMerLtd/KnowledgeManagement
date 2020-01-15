@@ -41,7 +41,7 @@
    
 #### Primary Service: ```Uknown Service``` 
 - ##### UUID ```4145```
--  ##### Characteristic: ```Uknown Characteristic```
+-  ##### Characteristic: ```Uknown Characteristic``` || ```controlPointLength```
    >  - ###### UUID ```F1D0FFF3-DEAA-ECEE-B42F-C9BA7ED623BB```
    >  - Properties: **READ**
    >  - Value: 0x01-FD
@@ -53,19 +53,19 @@
    >  - Value: 1.0
    >  - Value Sent: N/A
 
--  ##### Characteristic: ```Uknown Characteristic```
+-  ##### Characteristic: ```Uknown Characteristic``` || ```revisionBitfield```
    >  - ###### UUID ```F1D0FFF4-DEAA-ECEE-B42F-C9BA7ED623BB```
    >  - Properties: **READ**
    >  - Value: 0x80
    >  - Value Sent: N/A
    
--  ##### Characteristic: ```Uknown Characteristic```
+-  ##### Characteristic: ```Uknown Characteristic```  || ```controlPoint```
    >  - ###### UUID ```F1D0FFF1-DEAA-ECEE-B42F-C9BA7ED623BB```
    >  - Properties: **Write and Write Without Response**
    >  - Value: N/A
    >  - Value Sent: N/A
 
--  ##### Characteristic: ```Uknown Characteristic```
+-  ##### Characteristic: ```Uknown Characteristic``` || ```status```
    >  - ###### UUID ```F1D0FFF2-DEAA-ECEE-B42F-C9BA7ED623BB```
    >  - Properties: **Notify**
    >  - Value: N/A
