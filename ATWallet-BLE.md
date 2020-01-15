@@ -74,4 +74,4 @@
       - ##### Descriptor: ```Client Characteristic Configuration```
        >  - ###### UUID ```2902```
        >  - Value: N/A
-       >  - Value Sent: N/A
+       >  - Value Sent: Notifications and Indications are Enable/Disable
