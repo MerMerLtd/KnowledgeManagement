@@ -41,7 +41,7 @@
    
 #### Primary Service: ```Uknown Service``` 
 - ##### UUID ```4145```
--  ##### Characteristic: ```Uknown Characteristic``` || ```controlPointLength```
+-  ##### Characteristic: ```Uknown Characteristic```
    >  - ###### UUID ```F1D0FFF3-DEAA-ECEE-B42F-C9BA7ED623BB```
    >  - Properties: **READ**
    >  - Value: 0x01-FD
@@ -53,19 +53,19 @@
    >  - Value: 1.0
    >  - Value Sent: N/A
 
--  ##### Characteristic: ```Uknown Characteristic``` || ```revisionBitfield```
+-  ##### Characteristic: ```Uknown Characteristic```
    >  - ###### UUID ```F1D0FFF4-DEAA-ECEE-B42F-C9BA7ED623BB```
    >  - Properties: **READ**
    >  - Value: 0x80
    >  - Value Sent: N/A
    
--  ##### Characteristic: ```Uknown Characteristic``` || ```controlPoint```
+-  ##### Characteristic: ```Uknown Characteristic```
    >  - ###### UUID ```F1D0FFF1-DEAA-ECEE-B42F-C9BA7ED623BB```
    >  - Properties: **Write and Write Without Response**
    >  - Value: N/A
    >  - Value Sent: N/A
 
--  ##### Characteristic: ```Uknown Characteristic``` || ```status```
+-  ##### Characteristic: ```Uknown Characteristic```
    >  - ###### UUID ```F1D0FFF2-DEAA-ECEE-B42F-C9BA7ED623BB```
    >  - Properties: **Notify**
    >  - Value: N/A
@@ -74,4 +74,4 @@
       - ##### Descriptor: ```Client Characteristic Configuration```
        >  - ###### UUID ```2902```
        >  - Value: N/A
-       >  - Value Sent: Notifications and Indications are Enabled/Disabled
+       >  - Value Sent: Notifications and Indications are Enable/Disable
