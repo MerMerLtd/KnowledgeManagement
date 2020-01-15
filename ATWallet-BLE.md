@@ -44,19 +44,19 @@
 -  ##### Characteristic: ```Uknown Characteristic```
    >  - ###### UUID ```F1D0FFF3-DEAA-ECEE-B42F-C9BA7ED623BB```
    >  - Properties: **READ**
-   >  - Value: N/A
+   >  - Value: 0x01-FD
    >  - Value Sent: N/A
    
 -  ##### Characteristic: ```Software Revision String```
    >  - ###### UUID ```2A28```
    >  - Properties: **READ**
-   >  - Value: N/A
+   >  - Value: 1.0
    >  - Value Sent: N/A
 
 -  ##### Characteristic: ```Uknown Characteristic```
    >  - ###### UUID ```F1D0FFF4-DEAA-ECEE-B42F-C9BA7ED623BB```
    >  - Properties: **READ**
-   >  - Value: N/A
+   >  - Value: 0x80
    >  - Value Sent: N/A
    
 -  ##### Characteristic: ```Uknown Characteristic```
