@@ -8,4 +8,4 @@ For creating, sharing using and managing the knowledge and information of MerMer
 
 [ATWallet BLE](ATWallet-BLE.md)
 
-[樣品試用辦法](Sampling-test.md)
+[樣品試用標準程序](Sampling-test.md)
