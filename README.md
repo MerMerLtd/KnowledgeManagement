@@ -3,7 +3,6 @@ For creating, sharing using and managing the knowledge and information of MerMer
 
 ## Index 索引
 [i18n frontend library](i18n-Frontend-Library.md)
-
 [pm2 deploy](pm2-deploy.md)
-
 [ATWallet BLE](ATWallet-BLE.md)
+[樣品試用辦法](Sampling-test.md)
