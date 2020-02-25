@@ -124,7 +124,16 @@ pm2 deploy ecosystem.config.js production setup
 ```
 
 ### 7. 部署代碼
+在terminal跳轉到要部署app的configuration_file所在的folder執行以下指令[本地資料夾]
 ```
+pm2 deploy ecosystem.config.js production
+```
+### 8. 更新
+在terminal跳轉到要部署app的configuration_file所在的folder執行以下指令[本地資料夾]
+```
+git add .
+git commit -m '[commit message]'
+git push
 pm2 deploy ecosystem.config.js production
 ```
 
